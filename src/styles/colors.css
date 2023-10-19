@@ -1,0 +1,14 @@
+@layer colors {
+  :root {
+    --white: hsl(60, 100%, 100%);
+    --blue: hsl(205, 84%, 22%);
+    --red: hsl(349, 84%, 60%);
+    --black: hsl(245, 21%, 12%);
+    --yellow: hsl(51, 98%, 65%);
+    --navyBlue: hsl(214, 100%, 15%);
+    --darkGrey: hsl(214, 44%, 19%);
+    --lightGrey: hsl(205, 39%, 69%);
+    --lightBlue: hsl(206, 97%, 61%);
+    --neonCian: hsl(171, 100%, 46%);
+  }
+}
