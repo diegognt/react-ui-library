@@ -1,0 +1,55 @@
+.heading {
+  --color: var(--neonCian);
+  --font-size: var(--font-size-lg);
+  --font-weight: var(--font-weight-bold);
+  --line-height: var(--line-height-lg);
+  --margin-bottom: 1rem;
+
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  color: var(--color);
+  margin-bottom: var(--margin-bottom);
+  margin-top: 0;
+}
+
+.heading--sm {
+  --font-size: var(--font-size-sm);
+  --line-height: var(--line-height-sm);
+  --margin-bottom: 0.6rem;
+}
+
+.heading--md {
+  --font-size: var(--font-size-md);
+  --line-height: var(--line-height-md);
+  --margin-bottom: 0.8rem;
+}
+
+.heading--lg {
+  --font-size: var(--font-size-lg);
+  --line-height: var(--line-height-lg);
+  --margin-bottom: 1rem;
+}
+
+.heading--xl {
+  --font-size: var(--font-size-xl);
+  --line-height: var(--line-height-xl);
+  --margin-bottom: 1.42rem;
+}
+
+.heading--2xl {
+  --font-size: var(--font-size-xxl);
+  --line-height: var(--line-height-xxl);
+  --margin-bottom: 1.8rem;
+}
+
+.heading--3xl {
+  --font-size: var(--font-size-xxxl);
+  --line-height: var(--line-height-xxxl);
+  --margin-bottom: 2.05rem;
+}
+
+@media (prefers-color-scheme: light) {
+  .heading {
+    --color: var(--black);
+  }
+}
