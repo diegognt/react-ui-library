@@ -1,9 +1,10 @@
+import Heading from '@components/Heading'
 import './App.css'
 
 function App() {
   return (
     <article>
-      <h1>Personal UI library for React apps</h1>
+      <Heading>Personal UI library for React apps</Heading>
       <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
     </article>
   )
